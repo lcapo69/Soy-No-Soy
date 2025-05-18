@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6f0;
+    color: #4d004d;
+  }
+  
+  header {
+    background-color: #ffb6c1;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .food-card {
+    background-color: #ffcce6;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #800040;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(255, 182, 193, 0.4);
+  }
+  
+  .food-card:hover {
+    background-color: #ff99cc;
+    transform: translateY(-4px);
+  }
+
+  .recipe-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff0f5;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(255, 192, 203, 0.3);
+  }
+  
+  .ingredients-section,
+  .instructions-section {
+    margin-bottom: 40px;
+  }
+  
+  .ingredients-section h2,
+  .instructions-section h2 {
+    font-size: 2rem;
+    color: #d63384;
+    margin-bottom: 15px;
+  }
+  
+  .ingredients-section h3,
+  .instructions-section h3 {
+    color: #c2185b;
+    font-size: 1.3rem;
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "🍕 ";
+    margin-right: 5px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #4d004d;
+    margin-bottom: 1rem;
+  }
+
+  .nav-bar {
+    background-color: #ffccda;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(255, 182, 193, 0.3);
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #800040;
+    font-size: 1.1rem;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  .nav-bar a:hover {
+    color: #d63384;
+  }
