@@ -111,8 +111,21 @@ body {
     color: #d63384;
   }
 
-  .more_foot {
-    padding-bottom: 100px;
-    padding-left: 50px;
-    color: black;
+  .original-link {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 60px; /* Increased from 20px to 60px */
+  }
+  
+  .original-link a {
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: #d63384;
+    border-bottom: 1px dotted #d63384;
+    transition: color 0.3s, border-color 0.3s;
+  }
+  
+  .original-link a:hover {
+    color: #800040;
+    border-color: #800040;
   }
