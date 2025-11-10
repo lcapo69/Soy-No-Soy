@@ -138,3 +138,9 @@ body {
     content: "🔥 ";
     margin-right: 5px;
   }
+
+  .Food_Title {
+    color: purple;
+    font-size: 40px;
+    margin-left: 100px;
+  }
